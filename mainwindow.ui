@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>711</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: #D1E5F4;
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="welcomePage">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>90</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_4 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;  
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Welcome</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WloginButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>200</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 4px 13px;
+    font-size: 16px;
+    background-color: #FFFFFF; 
+    color: #4A4A4A; 
+    border: 1px solid #000000;     
+    border-radius: 0px;  
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; 
+    padding: 18px 27px 12px 33px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Log in</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WsigninButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>250</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 4px 13px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; 
+    padding: 18px 27px 12px 33px; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign in</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="loginPage">
+     <widget class="QLabel" name="idLabel">
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>150</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#idLabel {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+    color: #4A4A4A;
+    background-color: #D1E5F4;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Enter your CUNY ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="idInput">
+      <property name="geometry">
+       <rect>
+        <x>381</x>
+        <y>150</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    font-family: &quot;Courier New&quot;, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="loginButton">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>240</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 4px 13px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    border: 1px solid #000000;
+    border-radius: 0px; 
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; 
+    padding: 18px 27px 12px 33px; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="loginErrorLabel">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>190</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>290</y>
+        <width>271</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 4px 13px;
+    font-size: 16px; 
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; 
+    padding: 18px 27px 12px 33px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Don't have an account?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>231</x>
+        <y>70</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    color: #4A4A4A;
+    background-color: #D1E5F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Student Login</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="homePage">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>100</y>
+        <width>231</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    color: #4A4A4A;
+    background-color: #D1E5F4; 
+}</string>
+      </property>
+      <property name="text">
+       <string>Select your home station</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="stationLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>291</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+ 
+    background-color: #FFFFFF;
+    color: #4A4A4A; 
+    font-family: &quot;Courier New&quot;, monospace; 
+    font-size: 13px; 
+    font-weight: 500;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="classSelectLabel">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>170</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#classSelectLabel {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+    color: #4A4A4A;
+    background-color: #D1E5F4;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Select your class</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="selectClassComboBox">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>200</y>
+        <width>351</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+    font-family: &quot;Courier New&quot;, monospace;
+    font-size: 13px;
+    font-weight: 300;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+QComboBox QAbstractItemView {
+    font-family: &quot;Courier New&quot;, monospace;
+    font-size: 13px;
+    font-weight: 300;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    selection-background-color: #4A4A4A; 
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="continueButton">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>340</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 4px 13px; 
+    font-size: 16px;       
+    background-color: #FFFFFF;    
+    color: #4A4A4A;             
+    border: 1px solid #000000;  
+    border-radius: 0px;       
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+QPushButton:pressed {
+    background-color: #E0E0E0; 
+    padding: 18px 27px 12px 33px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Continue</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>40</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_5 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+    color: #4A4A4A;
+    background-color: #D1E5F4;
+}</string>
+      </property>
+      <property name="text">
+       <string>Home Page</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>240</y>
+        <width>221</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_16{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Select your starting time</string>
+      </property>
+     </widget>
+     <widget class="QTimeEdit" name="startTimeEdit">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>270</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTimeEdit {
+    font-family: &quot;Courier New&quot;, monospace;
+    font-size: 13px; 
+    font-weight: 300;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    selection-background-color: #4A4A4A; 
+    selection-color: #FFFFFF; 
+}
+
+QTimeEdit::up-button, QTimeEdit::down-button {
+    subcontrol-origin: border;
+    width: 15px; 
+    border: 0px; 
+    border-left: 1px solid #000000; 
+    border-radius: 0px;
+    padding: 2px;
+    background-color: #4A4A4A
+}
+
+QTimeEdit::up-arrow {
+    image: url(:/qss_icons/rc/up_arrow.png); 
+    width: 8px;
+    height: 8px;
+}
+
+QTimeEdit::down-arrow {
+    image: url(:/qss_icons/rc/down_arrow.png);
+    width: 8px;
+    height: 8px;
+}
+QTimeEdit::up-button:hover, QTimeEdit::down-button:hover {
+    background-color: #CCCCCC; 
+}
+
+QTimeEdit::up-button:pressed, QTimeEdit::down-button:pressed {
+    background-color: #AAAAAA; 
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="emailPreviewPage">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>60</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_2 {
+    /* Font: Blocky, Bold, and Big */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; /* Use a monospaced font for a blocky look */
+    
+    /* Colors and Border for the &quot;Title Bar&quot; Look */
+    color: #4A4A4A;             /* Dark gray text */
+    background-color: #D1E5F4;  /* Light/White background */
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Email Preview</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="emailBodyTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>120</y>
+        <width>441</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextEdit {
+    /* 1. Background Color */
+    background-color: #FFFFFF;        /* Sets the background to White */
+    
+    /* 2. Text Color and Font */
+    color: #4A4A4A;                   /* Dark gray text color */
+    font-family: &quot;Courier New&quot;, monospace; /* Your preferred retro font */
+    font-size: 13px;                  /* Sets the font size to 13 pixels */
+    font-weight: 500;
+    
+    /* 3. Border (To match your retro theme) */
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 1px;                     /* Padding inside the box */
+}</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Courier New','monospace'; font-size:13px; font-weight:500; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;Hello Professor Name,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;I may arrive a few minutes late to class today due to subway delays.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;Based on my commute, I might be about x minutes late.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;Best regards,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400;&quot;&gt;Student Name&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sendEmailButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>280</y>
+        <width>121</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    /* 1. Size Increase (Bigger Button) */
+    padding: 4px 13px;             /* Increased padding to make the button area bigger */
+    font-size: 16px;                /* Slightly larger font size */
+    
+    /* 2. Colors: White Background */
+    background-color: #FFFFFF;      /* Pure White background */
+    color: #4A4A4A;                 /* Dark gray text (keeps the retro dark outline text) */
+    
+    /* 3. Border and Font (Same as before) */
+    border: 1px solid #000000;      /* Thick black border */
+    border-radius: 0px;             /* Sharp corners */
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+/* 4. Pressed State (Ensures the click animation still works with the new color) */
+QPushButton:pressed {
+    /* Slightly darker gray/off-white when pressed */
+    background-color: #E0E0E0; 
+    
+    /* Shift the button's content to simulate a physical click */
+    padding: 18px 27px 12px 33px; /* Adjusted padding values for the new size */
+}</string>
+      </property>
+      <property name="text">
+       <string>Send Email</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backToResultButton">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>330</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    /* 1. Size Increase (Bigger Button) */
+    padding: 4px 13px;             /* Increased padding to make the button area bigger */
+    font-size: 16px;                /* Slightly larger font size */
+    
+    /* 2. Colors: White Background */
+    background-color: #FFFFFF;      /* Pure White background */
+    color: #4A4A4A;                 /* Dark gray text (keeps the retro dark outline text) */
+    
+    /* 3. Border and Font (Same as before) */
+    border: 1px solid #000000;      /* Thick black border */
+    border-radius: 0px;             /* Sharp corners */
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+/* 4. Pressed State (Ensures the click animation still works with the new color) */
+QPushButton:pressed {
+    /* Slightly darker gray/off-white when pressed */
+    background-color: #E0E0E0; 
+    
+    /* Shift the button's content to simulate a physical click */
+    padding: 18px 27px 12px 33px; /* Adjusted padding values for the new size */
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="resultPage">
+     <widget class="QLabel" name="resultHeaderLabel">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#resultHeaderLabel {
+    /* Font: Blocky, Bold, and Big */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; /* Use a monospaced font for a blocky look */
+    
+    /* Colors and Border for the &quot;Title Bar&quot; Look */
+    color: #4A4A4A;             /* Dark gray text */
+    background-color: #D1E5F4;  /* Light/White background */
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Commute Summary</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stationTitleLabel">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>80</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#stationTitleLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Station:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="classTitleLabel">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>100</y>
+        <width>58</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#classTitleLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Class:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="statLabel">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#statLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Service Status:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="arrLabel">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>190</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#arrLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Arrival:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>210</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_9 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Status:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stationResultLabel">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>80</y>
+        <width>211</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#stationResultLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Selected station</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="classResultLabel">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>100</y>
+        <width>411</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#classResultLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Selected class</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="serviceStatusLabel">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#serviceStatusLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>train line - delay status</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="arrivalTimeLabel">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>190</y>
+        <width>211</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#arrivalTimeLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Arrival time </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="arrivalStatusLabel">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>210</y>
+        <width>311</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#arrivalStatusLabel {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>You maybe late/early</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="alternativeGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>240</y>
+        <width>291</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox#alternativeGroupBox {
+/* 1. AGGRESSIVE FONT OVERRIDE on the main container
+* This uses a generic monospace font that MUST be available
+* on your system, forcing it to inherit.
+*/
+qproperty-font: &quot;monospace, 13pt, bold&quot;;
+
+background-color: #D1E5F4;
+border-radius: 0px;
+margin-top: 13px;
+padding-top: 1px;
+
+
+}
+
+QGroupBox#alternativeGroupBox::title {
+/* 2. RE-AFFIRM the specific size and weight on the title sub-control */
+subcontrol-origin: margin;
+subcontrol-position: top center;
+padding: 5px 15px;
+
+/* Using 'inherit' on font-family here can sometimes grab the qproperty setting */
+font-family: inherit; 
+font-size: 13px;
+font-weight: bold;
+
+color: #4A4A4A;
+background-color: #D1E5F4;
+border: 0px solid #000000;
+border-radius: 0px;
+
+}</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backToHomeButton">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>360</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    /* 1. Size Increase (Bigger Button) */
+    padding: 4px 13px;             /* Increased padding to make the button area bigger */
+    font-size: 16px;                /* Slightly larger font size */
+    
+    /* 2. Colors: White Background */
+    background-color: #FFFFFF;      /* Pure White background */
+    color: #4A4A4A;                 /* Dark gray text (keeps the retro dark outline text) */
+    
+    /* 3. Border and Font (Same as before) */
+    border: 1px solid #000000;      /* Thick black border */
+    border-radius: 0px;             /* Sharp corners */
+    font-family: &quot;Courier New&quot;, monospace;
+    font-weight: 500;
+}
+
+/* 4. Pressed State (Ensures the click animation still works with the new color) */
+QPushButton:pressed {
+    /* Slightly darker gray/off-white when pressed */
+    background-color: #E0E0E0; 
+    
+    /* Shift the button's content to simulate a physical click */
+    padding: 18px 27px 12px 33px; /* Adjusted padding values for the new size */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>250</y>
+        <width>251</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_6 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Alternative Route Suggestions</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="alternativeRoutesListWidget">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>280</y>
+        <width>271</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget {
+background-color: #FFFFFF; 
+border: 0.5px solid #000000;     
+border-radius: 0px;
+padding: 3px;
+}
+
+QListWidget::item {
+font-family: &quot;Courier New&quot;, monospace;
+font-size: 12px;
+font-weight: 300;
+color: #4A4A4A;   
+
+background-color: #FFFFFF; 
+padding: 3px; 
+
+
+}
+
+QListWidget::item:selected {
+font-family: &quot;Courier New&quot;, monospace;
+font-size: 12px;
+background-color: #D1E5F4;
+color: #4A4A4A;     
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>170</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_15 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace; 
+    
+
+    color: #4A4A4A;    
+    background-color: #D1E5F4; 
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Start Time:</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>833</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
