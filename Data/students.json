@@ -1,0 +1,41 @@
+[
+      {
+        "name": "Israt Jahan",
+        "cuny_id": "111",
+        "email": "israt@stu.bmcc.cuny.edu",
+
+        "classes": [
+        {
+            "class_name": "CSC 211 - Advance Programming",
+            "class_time": "10:00 AM - 11:40 AM",
+            "professor": "Prof. Azhar",
+            "prof_email": "prof.azhar@bmcc.cuny.edu"
+        },
+        {
+            "class_name": "MAT 409 - Statistic and Probability",
+            "class_time": "12:00 PM - 2:15 PM",
+            "professor": "Prof. Li",
+            "prof_email": "prof.li@bmcc.cuny.edu"
+        },
+        {
+            "class_name": "MAT 415 - Linear Algebra",
+            "class_time": "3:00 PM - 5:00 PM",
+            "professor": "Prof. Stout",
+            "prof_email": "prof.stout@bmcc.cuny.edu"
+        }
+    ]
+      },
+    {
+      "name": "Will Smith",
+      "cuny_id": "222",
+      "email": "will@stu.bmcc.cuny.edu",
+      "classes":[
+        {
+            "class_name": "SPE 102 - Public Speaking",
+            "class_time": "1:00 PM - 2:15 PM",
+            "professor": "Prof. Ritcey",
+            "prof_email": "prof.ritchey@bmcc.cuny.edu"
+        }
+    ]
+    }
+]

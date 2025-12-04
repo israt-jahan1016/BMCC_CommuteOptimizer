@@ -1,0 +1,1104 @@
+{
+    "stations": [
+        {
+            "Station Name": "103 St",
+            "Train Lines": [
+                "1",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "104 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "110 St-Malcolm X Plaza",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "111 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "116 St",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "116 St-Columbia University",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "125 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "135 St",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "137 St-City College",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "14 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "145 St",
+            "Train Lines": [
+                "1",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "149 St-Grand Concourse",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "155 St",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "157 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "163 St-Amsterdam Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "168 St",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "168 St-Washington Hts",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "169 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "174 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "175 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "18 St",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "181 St",
+            "Train Lines": [
+                "1",
+                "A"
+            ]
+        },
+        {
+            "Station Name": "190 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "191 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "207 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "215 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "219 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "225 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "23 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "231 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "233 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "238 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "28 St",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "3 Av-149 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "34 St-Penn Station",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "36 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "42 St-Port Authority Bus Terminal",
+            "Train Lines": [
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "46 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "5 Av/53 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "50 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "59 St-Columbus Circle",
+            "Train Lines": [
+                "1",
+                "2",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "63 Dr-Rego Park",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "65 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "66 St-Lincoln Center",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "67 Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "7 Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "72 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "75 Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "79 St",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "80 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "81 St-Museum of Natural History",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "86 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "88 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "96 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Allerton Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Aqueduct Racetrack",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Aqueduct-N Conduit Av",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Atlantic Av-Barclays Ctr",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Beach 105 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 25 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 36 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 44 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 60 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 67 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 90 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Beach 98 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Bergen St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Beverly Rd",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Borough Hall",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Briarwood",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Broad Channel",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Broadway Junction",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Bronx Park East",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Burke Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Canal St",
+            "Train Lines": [
+                "1",
+                "2",
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Cathedral Pkwy (110 St)",
+            "Train Lines": [
+                "1",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Chambers St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Christopher St-Stonewall",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Church Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Clark St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Clinton-Washington Avs",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Court Sq-23 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Crown Hts-Utica Av",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Dyckman St",
+            "Train Lines": [
+                "1",
+                "A"
+            ]
+        },
+        {
+            "Station Name": "E 180 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Eastern Pkwy-Brooklyn Museum",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Elmhurst Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Euclid Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Far Rockaway-Mott Av",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Flatbush Av-Brooklyn College",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Forest Hills-71 Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Franklin Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Franklin Av-Medgar Evers College",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Franklin St",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Freeman St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Fulton St",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Grand Army Plaza",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Grand Av-Newtown",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Grant Av",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Gun Hill Rd",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Harlem-148 St",
+            "Train Lines": [
+                "3"
+            ]
+        },
+        {
+            "Station Name": "High St",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Houston St",
+            "Train Lines": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Howard Beach-JFK Airport",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Hoyt St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Hoyt-Schermerhorn Sts",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Intervale Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Inwood-207 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Jackson Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Jackson Hts-Roosevelt Av",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Jamaica Center-Parsons/Archer",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Jamaica-179 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Jamaica-Van Wyck",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Jay St-MetroTech",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Junius St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Kew Gardens-Union Tpke",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Kingston Av",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Kingston-Throop Avs",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Lafayette Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Lexington Av/53 St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Liberty Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Marble Hill-225 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "Nereid Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Nevins St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "New Lots Av",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Newkirk Av-Little Haiti",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Northern Blvd",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Nostrand Av",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Ozone Park-Lefferts Blvd",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Park Place",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Parsons Blvd",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Pelham Pkwy",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Pennsylvania Av",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "President St-Medgar Evers College",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Prospect Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Queens Plaza",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Ralph Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Rector St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "Rockaway Av",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Rockaway Blvd",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Rockaway Park-Beach 116 St",
+            "Train Lines": [
+                "A"
+            ]
+        },
+        {
+            "Station Name": "Saratoga Av",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Shepherd Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Simpson St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "South Ferry",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "Spring St",
+            "Train Lines": [
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Steinway St",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Sterling St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Sutphin Blvd",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Sutphin Blvd-Archer Av-JFK Airport",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "Sutter Av-Rutland Rd",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Times Sq-42 St",
+            "Train Lines": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "Utica Av",
+            "Train Lines": [
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "Van Cortlandt Park-242 St",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "Van Siclen Av",
+            "Train Lines": [
+                "2",
+                "3",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "Station Name": "W 4 St-Wash Sq",
+            "Train Lines": [
+                "A",
+                "C",
+                "E"
+            ]
+        },
+        {
+            "Station Name": "WTC Cortlandt",
+            "Train Lines": [
+                "1"
+            ]
+        },
+        {
+            "Station Name": "Wakefield-241 St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Wall St",
+            "Train Lines": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "Station Name": "West Farms Sq-E Tremont Av",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Winthrop St",
+            "Train Lines": [
+                "2"
+            ]
+        },
+        {
+            "Station Name": "Woodhaven Blvd",
+            "Train Lines": [
+                "E"
+            ]
+        },
+        {
+            "Station Name": "World Trade Center",
+            "Train Lines": [
+                "E"
+            ]
+        }
+    ]
+}
