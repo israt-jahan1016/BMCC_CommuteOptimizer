@@ -1,0 +1,613 @@
+{
+  "103 St": {
+    "1": 26,
+    "A": 22,
+    "C": 24
+  },
+  "104 St": {
+    "A": 33
+  },
+  "110 St-Malcolm X Plaza": {
+    "2": 20,
+    "3": 20
+  },
+  "111 St": {
+    "A": 34
+  },
+  "116 St": {
+    "2": 21,
+    "3": 21,
+    "A": 57,
+    "C": 26
+  },
+  "116 St-Columbia University": {
+    "1": 28
+  },
+  "125 St": {
+    "1": 31,
+    "2": 23,
+    "3": 23,
+    "A": 21,
+    "C": 28
+  },
+  "135 St": {
+    "2": 24,
+    "3": 24,
+    "A": 30,
+    "C": 30
+  },
+  "137 St-City College": {
+    "1": 32
+  },
+  "14 St": {
+    "1": 7,
+    "2": 5,
+    "3": 5,
+    "A": 7,
+    "C": 8,
+    "E": 8
+  },
+  "145 St": {
+    "1": 34,
+    "3": 26,
+    "A": 25,
+    "C": 32
+  },
+  "149 St-Grand Concourse": {
+    "2": 28
+  },
+  "155 St": {
+    "A": 30,
+    "C": 33
+  },
+  "157 St": {
+    "1": 36
+  },
+  "163 St-Amsterdam Av": {
+    "A": 30,
+    "C": 35
+  },
+  "168 St": {
+    "A": 28,
+    "C": 36
+  },
+  "168 St-Washington Hts": {
+    "1": 37
+  },
+  "169 St": {
+    "E": 30
+  },
+  "174 St": {
+    "2": 41
+  },
+  "175 St": {
+    "A": 30
+  },
+  "18 St": {
+    "1": 8,
+    "2": 8
+  },
+  "181 St": {
+    "1": 39,
+    "A": 32
+  },
+  "190 St": {
+    "A": 34
+  },
+  "191 St": {
+    "1": 41
+  },
+  "207 St": {
+    "1": 44
+  },
+  "215 St": {
+    "1": 45
+  },
+  "219 St": {
+    "2": 55
+  },
+  "225 St": {
+    "2": 56
+  },
+  "23 St": {
+    "1": 9,
+    "2": 30,
+    "A": 8,
+    "C": 9,
+    "E": 17
+  },
+  "231 St": {
+    "1": 48
+  },
+  "233 St": {
+    "2": 58
+  },
+  "238 St": {
+    "1": 50
+  },
+  "28 St": {
+    "1": 10,
+    "2": 30
+  },
+  "3 Av-149 St": {
+    "2": 30
+  },
+  "34 St-Penn Station": {
+    "1": 11,
+    "2": 7,
+    "3": 7,
+    "A": 9,
+    "C": 11,
+    "E": 11
+  },
+  "36 St": {
+    "E": 30
+  },
+  "42 St-Port Authority Bus Terminal": {
+    "A": 10,
+    "C": 12,
+    "E": 12
+  },
+  "46 St": {
+    "E": 30
+  },
+  "5 Av/53 St": {
+    "E": 20
+  },
+  "50 St": {
+    "1": 15,
+    "2": 30,
+    "A": 13,
+    "C": 14,
+    "E": 14
+  },
+  "59 St-Columbus Circle": {
+    "1": 17,
+    "2": 30,
+    "A": 13,
+    "C": 16
+  },
+  "63 Dr-Rego Park": {
+    "E": 30
+  },
+  "65 St": {
+    "E": 30
+  },
+  "66 St-Lincoln Center": {
+    "1": 18,
+    "2": 30
+  },
+  "67 Av": {
+    "E": 30
+  },
+  "7 Av": {
+    "E": 18
+  },
+  "72 St": {
+    "1": 20,
+    "2": 13,
+    "3": 13,
+    "A": 16,
+    "C": 18
+  },
+  "75 Av": {
+    "E": 42
+  },
+  "79 St": {
+    "1": 21,
+    "2": 30
+  },
+  "80 St": {
+    "A": 28
+  },
+  "81 St-Museum of Natural History": {
+    "A": 18,
+    "C": 19
+  },
+  "86 St": {
+    "1": 22,
+    "2": 30,
+    "A": 19,
+    "C": 21
+  },
+  "88 St": {
+    "A": 30
+  },
+  "96 St": {
+    "1": 24,
+    "2": 15,
+    "3": 16,
+    "A": 20,
+    "C": 22
+  },
+  "Allerton Av": {
+    "2": 51
+  },
+  "Aqueduct Racetrack": {
+    "A": 35
+  },
+  "Aqueduct-N Conduit Av": {
+    "A": 36
+  },
+  "Atlantic Av-Barclays Ctr": {
+    "2": 14,
+    "3": 14
+  },
+  "Beach 105 St": {
+    "A": 54
+  },
+  "Beach 25 St": {
+    "A": 56
+  },
+  "Beach 36 St": {
+    "A": 54
+  },
+  "Beach 44 St": {
+    "A": 52
+  },
+  "Beach 60 St": {
+    "A": 50
+  },
+  "Beach 67 St": {
+    "A": 49
+  },
+  "Beach 90 St": {
+    "A": 50
+  },
+  "Beach 98 St": {
+    "A": 52
+  },
+  "Bergen St": {
+    "2": 15,
+    "3": 15
+  },
+  "Beverly Rd": {
+    "2": 30
+  },
+  "Borough Hall": {
+    "2": 9,
+    "3": 9
+  },
+  "Briarwood": {
+    "E": 45
+  },
+  "Broad Channel": {
+    "A": 45
+  },
+  "Broadway Junction": {
+    "A": 20,
+    "C": 23
+  },
+  "Bronx Park East": {
+    "2": 47
+  },
+  "Burke Av": {
+    "2": 52
+  },
+  "Canal St": {
+    "1": 2,
+    "2": 2,
+    "A": 2,
+    "C": 2,
+    "E": 2
+  },
+  "Cathedral Pkwy (110 St)": {
+    "1": 30,
+    "A": 30,
+    "C": 30
+  },
+  "Chambers St": {
+    "1": 30,
+    "2": 30,
+    "3": 30,
+    "A": 30,
+    "C": 30
+  },
+  "Christopher St-Stonewall": {
+    "1": 6,
+    "2": 6
+  },
+  "Church Av": {
+    "2": 28
+  },
+  "Clark St": {
+    "2": 8,
+    "3": 8
+  },
+  "Clinton-Washington Avs": {
+    "A": 12,
+    "C": 12
+  },
+  "Court Sq-23 St": {
+    "E": 24
+  },
+  "Crown Hts-Utica Av": {
+    "2": 28,
+    "3": 26
+  },
+  "Dyckman St": {
+    "1": 42,
+    "A": 36
+  },
+  "E 180 St": {
+    "2": 44
+  },
+  "Eastern Pkwy-Brooklyn Museum": {
+    "2": 19,
+    "3": 19
+  },
+  "Elmhurst Av": {
+    "E": 30
+  },
+  "Euclid Av": {
+    "A": 25,
+    "C": 30
+  },
+  "Far Rockaway-Mott Av": {
+    "A": 57
+  },
+  "Flatbush Av-Brooklyn College": {
+    "2": 33
+  },
+  "Forest Hills-71 Av": {
+    "E": 38
+  },
+  "Franklin Av": {
+    "A": 14,
+    "C": 14
+  },
+  "Franklin Av-Medgar Evers College": {
+    "2": 21,
+    "3": 21
+  },
+  "Franklin St": {
+    "1": 1,
+    "2": 1
+  },
+  "Freeman St": {
+    "2": 38
+  },
+  "Fulton St": {
+    "2": 3,
+    "3": 3,
+    "A": 2,
+    "C": 2
+  },
+  "Grand Army Plaza": {
+    "2": 17,
+    "3": 17
+  },
+  "Grand Av-Newtown": {
+    "E": 30
+  },
+  "Grant Av": {
+    "A": 27
+  },
+  "Gun Hill Rd": {
+    "2": 54
+  },
+  "Harlem-148 St": {
+    "3": 28
+  },
+  "High St": {
+    "A": 5,
+    "C": 5
+  },
+  "Houston St": {
+    "1": 4,
+    "2": 4
+  },
+  "Howard Beach-JFK Airport": {
+    "A": 38
+  },
+  "Hoyt St": {
+    "2": 11,
+    "3": 11
+  },
+  "Hoyt-Schermerhorn Sts": {
+    "A": 9,
+    "C": 9
+  },
+  "Intervale Av": {
+    "2": 36
+  },
+  "Inwood-207 St": {
+    "A": 37
+  },
+  "Jackson Av": {
+    "2": 32
+  },
+  "Jackson Hts-Roosevelt Av": {
+    "E": 32
+  },
+  "Jamaica Center-Parsons/Archer": {
+    "E": 49
+  },
+  "Jamaica-179 St": {
+    "E": 48
+  },
+  "Jamaica-Van Wyck": {
+    "E": 45
+  },
+  "Jay St-MetroTech": {
+    "A": 7,
+    "C": 7
+  },
+  "Junius St": {
+    "2": 36,
+    "3": 34
+  },
+  "Kew Gardens-Union Tpke": {
+    "E": 42
+  },
+  "Kingston Av": {
+    "2": 25,
+    "3": 24
+  },
+  "Kingston-Throop Avs": {
+    "A": 16,
+    "C": 16
+  },
+  "Lafayette Av": {
+    "A": 10,
+    "C": 10
+  },
+  "Lexington Av/53 St": {
+    "E": 21
+  },
+  "Liberty Av": {
+    "A": 24,
+    "C": 25
+  },
+  "Marble Hill-225 St": {
+    "1": 46
+  },
+  "Nereid Av": {
+    "2": 59
+  },
+  "Nevins St": {
+    "2": 12,
+    "3": 12
+  },
+  "New Lots Av": {
+    "2": 40,
+    "3": 38
+  },
+  "Newkirk Av-Little Haiti": {
+    "2": 31
+  },
+  "Northern Blvd": {
+    "E": 30
+  },
+  "Nostrand Av": {
+    "2": 23,
+    "3": 22,
+    "A": 14,
+    "C": 15
+  },
+  "Ozone Park-Lefferts Blvd": {
+    "A": 35
+  },
+  "Park Place": {
+    "2": 1,
+    "3": 1
+  },
+  "Parsons Blvd": {
+    "E": 44
+  },
+  "Pelham Pkwy": {
+    "2": 49
+  },
+  "Pennsylvania Av": {
+    "2": 37,
+    "3": 36
+  },
+  "President St-Medgar Evers College": {
+    "2": 24
+  },
+  "Prospect Av": {
+    "2": 34
+  },
+  "Queens Plaza": {
+    "E": 26
+  },
+  "Ralph Av": {
+    "A": 19,
+    "C": 20
+  },
+  "Rector St": {
+    "1": 2
+  },
+  "Rockaway Av": {
+    "2": 34,
+    "3": 33,
+    "A": 21,
+    "C": 22
+  },
+  "Rockaway Blvd": {
+    "A": 31
+  },
+  "Rockaway Park-Beach 116 St": {
+    "A": 57
+  },
+  "Saratoga Av": {
+    "2": 32,
+    "3": 31
+  },
+  "Shepherd Av": {
+    "A": 30,
+    "C": 29
+  },
+  "Simpson St": {
+    "2": 37
+  },
+  "South Ferry": {
+    "1": 4
+  },
+  "Spring St": {
+    "A": 4,
+    "C": 4,
+    "E": 4
+  },
+  "Steinway St": {
+    "E": 30
+  },
+  "Sterling St": {
+    "2": 25
+  },
+  "Sutphin Blvd": {
+    "E": 48
+  },
+  "Sutphin Blvd-Archer Av-JFK Airport": {
+    "E": 48
+  },
+  "Sutter Av-Rutland Rd": {
+    "2": 30,
+    "3": 30
+  },
+  "Times Sq-42 St": {
+    "1": 13,
+    "2": 8,
+    "3": 8
+  },
+  "Utica Av": {
+    "A": 17,
+    "C": 18
+  },
+  "Van Cortlandt Park-242 St": {
+    "1": 51
+  },
+  "Van Siclen Av": {
+    "2": 38,
+    "3": 37,
+    "A": 26,
+    "C": 27
+  },
+  "W 4 St-Wash Sq": {
+    "A": 5,
+    "C": 5,
+    "E": 6
+  },
+  "WTC Cortlandt": {
+    "1": 1
+  },
+  "Wakefield-241 St": {
+    "2": 61
+  },
+  "Wall St": {
+    "2": 4,
+    "3": 4
+  },
+  "West Farms Sq-E Tremont Av": {
+    "2": 43
+  },
+  "Winthrop St": {
+    "2": 27
+  },
+  "Woodhaven Blvd": {
+    "E": 30
+  },
+  "World Trade Center": {
+    "E": 30
+  }
+}
